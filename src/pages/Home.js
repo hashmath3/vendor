@@ -138,6 +138,7 @@ const Home = () => {
         variant={exampleIndex === 1 ? 'contained' : 'outlined'}
         onClick={() => handleExampleChange(1)}
         fullWidth 
+        sx={{ border: '2px solid #940d0d',    borderRadius: '10px' , }}
       >
         CUSTOMER REVIEWS
       </Button>
@@ -365,7 +366,7 @@ All Reviews
   </Grid>
 
 
-  <Grid item xs={2} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
+  <Grid item xs={1} sx={{ display: 'flex', justifyContent: 'flex-end', marginLeft:0 }}>
   <Avatar  alt="Remy Sharp" src="https://dashkit.goodthemes.co/assets/img/avatars/profiles/avatar-1.jpg" />
   </Grid>
   
@@ -388,7 +389,99 @@ All Reviews
     </Stack>
 
   </Grid>
-  <hr/>
+  <Grid item xs={1}>
+
+  </Grid>
+ <Grid item xs={12}>
+  <hr style={{color:"black" , width:"90%"}}/>
+  </Grid> 
+  <Grid item xs={1} sx={{ display: 'flex', justifyContent: 'flex-end', marginLeft:0 }}>
+  <Avatar  alt="Remy Sharp" src="https://dashkit.goodthemes.co/assets/img/avatars/profiles/avatar-1.jpg" />
+  </Grid>
+  
+
+  <Grid item xs={10} sx={{paddingRight:'10px'}}>
+    <Stack>
+      <Stack  direction="row"  justifyContent="space-between">
+<span>
+  
+      Andhrew hernandez
+</span>
+<span>
+  Jan 27th , 4:30pm
+</span>
+      </Stack>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quidem quod hic dolorem totam, doloribus earum voluptates molestias atque voluptatum impedit amet tempore ab possimus fuga aliquid illum odio officiis.
+      </p>
+
+    </Stack>
+
+  </Grid>
+  <Grid item xs={1}>
+
+  </Grid>
+  <Grid item xs={12}>
+  <hr style={{color:"black" , width:"90%"}}/>
+  </Grid> 
+  <Grid item xs={1} sx={{ display: 'flex', justifyContent: 'flex-end', marginLeft:0 }}>
+  <Avatar  alt="Remy Sharp" src="https://dashkit.goodthemes.co/assets/img/avatars/profiles/avatar-1.jpg" />
+  </Grid>
+  
+
+  <Grid item xs={10} sx={{paddingRight:'10px'}}>
+    <Stack>
+      <Stack  direction="row"  justifyContent="space-between">
+<span>
+  
+      Andhrew hernandez
+</span>
+<span>
+  Jan 27th , 4:30pm
+</span>
+      </Stack>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quidem quod hic dolorem totam, doloribus earum voluptates molestias atque voluptatum impedit amet tempore ab possimus fuga aliquid illum odio officiis.
+      </p>
+
+    </Stack>
+
+  </Grid>
+  <Grid item xs={1}>
+
+  </Grid>
+ <Grid item xs={12}>
+  <hr style={{color:"black" , width:"90%"}}/>
+  </Grid> 
+  <Grid item xs={1} sx={{ display: 'flex', justifyContent: 'flex-end', marginLeft:0 }}>
+  <Avatar  alt="Remy Sharp" src="https://dashkit.goodthemes.co/assets/img/avatars/profiles/avatar-1.jpg" />
+  </Grid>
+  
+
+  <Grid item xs={10} sx={{paddingRight:'10px'}}>
+    <Stack>
+      <Stack  direction="row"  justifyContent="space-between">
+<span>
+  
+      Andhrew hernandez
+</span>
+<span>
+  Jan 27th , 4:30pm
+</span>
+      </Stack>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quidem quod hic dolorem totam, doloribus earum voluptates molestias atque voluptatum impedit amet tempore ab possimus fuga aliquid illum odio officiis.
+      </p>
+
+    </Stack>
+
+  </Grid>
+  <Grid item xs={1}>
+
+  </Grid>
+ <Grid item xs={12}>
+  <hr style={{color:"black" , width:"90%"}}/>
+  </Grid> 
 
 
 </Grid>
