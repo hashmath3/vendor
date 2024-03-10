@@ -32,7 +32,7 @@ const leftnav = [
     { "id": "6", "name": "reviews", "icon": <AnnouncementIcon />, "url": "/reviews" },
     { "id": "7", "name": "Cuisines", "icon": <RestaurantRoundedIcon />, "url": "/cuisines" },
     { "id": "3", "name": "occasions", "icon": <CelebrationRoundedIcon />, "url": "/occasions" },
-    { "id": "4", "name": "packages", "icon": <WebAssetRoundedIcon />, "url": "/settings/?vendorId" },
+    { "id": "4", "name": "packages", "icon": <WebAssetRoundedIcon />, "url": "/packages " },
     { "id": "8", "name": "Bussiness Profile", "icon": <PersonRoundedIcon />, "url": "/notification" },
     { "id": "5", "name": "Photo gallery", "icon": <PhotoLibraryRoundedIcon />, "url": "/settings/?vendorId" },
     { "id": "6", "name": "branches", "icon": <BusinessRoundedIcon />, "url": "/settings/?vendorId" }
