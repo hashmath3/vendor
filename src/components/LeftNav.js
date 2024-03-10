@@ -14,7 +14,8 @@ import PersonRoundedIcon from '@mui/icons-material/PersonRounded';
 import PhotoLibraryRoundedIcon from '@mui/icons-material/PhotoLibraryRounded';
 import BusinessRoundedIcon from '@mui/icons-material/BusinessRounded';
 import StackedBarChartRoundedIcon from '@mui/icons-material/StackedBarChartRounded';
-
+import EditNoteIcon from '@mui/icons-material/EditNote';
+import AnnouncementIcon from '@mui/icons-material/Announcement';
 // const useStyles = makeStyles({
 //   list: {
 //     width: 250,
@@ -27,11 +28,12 @@ import StackedBarChartRoundedIcon from '@mui/icons-material/StackedBarChartRound
 
 const leftnav = [
     { "id": "1", "name": "Dashboard", "icon": <StackedBarChartRoundedIcon />, "url": "/" },
-    { "id": "2", "name": "calender", "icon": <CalendarTodayRoundedIcon />, "url": "/schedule" },
-    { "id": "3", "name": "Cuisines", "icon": <RestaurantRoundedIcon />, "url": "/cuisines" },
-    { "id": "3", "name": "occasions", "icon": <CelebrationRoundedIcon />, "url": "/notification" },
+    { "id": "2", "name": "inquiries", "icon": <EditNoteIcon />, "url": "/inquiries" },
+    { "id": "6", "name": "reviews", "icon": <AnnouncementIcon />, "url": "/reviews" },
+    { "id": "7", "name": "Cuisines", "icon": <RestaurantRoundedIcon />, "url": "/cuisines" },
+    { "id": "3", "name": "occasions", "icon": <CelebrationRoundedIcon />, "url": "/occasions" },
     { "id": "4", "name": "packages", "icon": <WebAssetRoundedIcon />, "url": "/settings/?vendorId" },
-    { "id": "3", "name": "Bussiness Profile", "icon": <PersonRoundedIcon />, "url": "/notification" },
+    { "id": "8", "name": "Bussiness Profile", "icon": <PersonRoundedIcon />, "url": "/notification" },
     { "id": "5", "name": "Photo gallery", "icon": <PhotoLibraryRoundedIcon />, "url": "/settings/?vendorId" },
     { "id": "6", "name": "branches", "icon": <BusinessRoundedIcon />, "url": "/settings/?vendorId" }
   ]
