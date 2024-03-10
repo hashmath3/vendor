@@ -10,12 +10,12 @@ import CalendarTodayRoundedIcon from '@mui/icons-material/CalendarTodayRounded';
 import RestaurantRoundedIcon from '@mui/icons-material/RestaurantRounded';
 import CelebrationRoundedIcon from '@mui/icons-material/CelebrationRounded';
 import WebAssetRoundedIcon from '@mui/icons-material/WebAssetRounded';
-import PersonRoundedIcon from '@mui/icons-material/PersonRounded';
 import PhotoLibraryRoundedIcon from '@mui/icons-material/PhotoLibraryRounded';
 import BusinessRoundedIcon from '@mui/icons-material/BusinessRounded';
 import StackedBarChartRoundedIcon from '@mui/icons-material/StackedBarChartRounded';
 import EditNoteIcon from '@mui/icons-material/EditNote';
 import AnnouncementIcon from '@mui/icons-material/Announcement';
+import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 // const useStyles = makeStyles({
 //   list: {
 //     width: 250,
@@ -33,7 +33,7 @@ const leftnav = [
     { "id": "7", "name": "Cuisines", "icon": <RestaurantRoundedIcon />, "url": "/cuisines" },
     { "id": "3", "name": "occasions", "icon": <CelebrationRoundedIcon />, "url": "/occasions" },
     { "id": "4", "name": "packages", "icon": <WebAssetRoundedIcon />, "url": "/packages " },
-    { "id": "8", "name": "Bussiness Profile", "icon": <PersonRoundedIcon />, "url": "/notification" },
+    { "id": "8", "name": "Subscription", "icon": <CurrencyRupeeIcon />, "url": "/notification" },
     { "id": "5", "name": "Photo gallery", "icon": <PhotoLibraryRoundedIcon />, "url": "/settings/?vendorId" },
     { "id": "6", "name": "branches", "icon": <BusinessRoundedIcon />, "url": "/settings/?vendorId" }
   ]

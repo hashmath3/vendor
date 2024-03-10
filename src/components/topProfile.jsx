@@ -5,6 +5,21 @@ import Badge from '@mui/material/Badge';
 import Popover from '@mui/material/Popover';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import { Link, NavLink } from "react-router-dom"
+import PersonRoundedIcon from '@mui/icons-material/PersonRounded';
+import SettingsIcon from '@mui/icons-material/Settings';
+import LogoutIcon from '@mui/icons-material/Logout';
+import { Stack } from '@mui/material';
+
+
+const topNav =[
+  { "id": "1", "name": "Bussiness Profile", "icon": <PersonRoundedIcon />, "url": "/bussinessProfile" },
+  { "id": "2", "name": "Settings", "icon": <SettingsIcon />, "url": "/settings" },
+  { "id": "6", "name": "Logout", "icon": <LogoutIcon />, "url": "/" },
+]
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
     '& .MuiBadge-badge': {
@@ -75,7 +90,19 @@ const TopProfile = () => {
   anchorEl={anchorEl}
   onClose={handleClose}
 >
-  The content of the Popover.
+<Typography sx={{ p: 2 }}> <List>
+        {topNav.map((item, index) => (
+          <ListItem key={index} sx={{padding:'0'}}>
+            <NavLink className=" nav-links"   to={item?.url} component="a" color="inherit">
+            <Stack direction="row" spacing={2} sx={{width: '100%', color:'#C33332'}}>
+                <span className=""></span> <span>{item.icon} </span> <span className="nav-name">{item.name}</span>
+              </Stack>
+            </NavLink   >
+            
+          </ListItem>
+        ))}
+      </List></Typography>
+  
 </Popover>
     </div>
   )
